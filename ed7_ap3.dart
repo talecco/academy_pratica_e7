@@ -20,7 +20,7 @@ void main() {
     Produto("Produto E", 500.0),
   ];
 
-  double percentualDesconto = 10.0; // Exemplo de desconto de 10%
+  double percentualDesconto = 10.0; 
 
   for (Produto produto in produtos) {
     double novoPreco = produto.desconto(percentualDesconto);
